@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(90deg,#c31432, #240b36);
+}
+
+.content{
+    width: 550px;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.nav{
+    height: 70px;
+    display: flex;
+}
+
+
+.login, .signup{
+    width: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 700;
+
+}
+.signup{
+    background-color: #cdcdcd;
+    color: #969696;
+}
+.hide{
+    background-color: #cdcdcd;
+    color: #969696;
+}
+.shows{
+    background-color: white;
+    color: black;
+}
+.statement{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.email{
+    height: 70px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.email label{
+    display: block;
+    margin-top: 10px;
+    margin-left: 24px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.email input{
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 8px;
+    width: 500px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+}
+.password{
+    display: flex;
+    position: relative;
+    height: 80px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.password label{
+    display: block;
+    margin-top: 10px;
+    margin-left: 24px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.password input{
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 8px;
+    width: 450px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+}
+
+.signup-password{
+    width: 10px;
+}
+
+.repeat-password{
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.showrepeatpassword{
+    position: absolute;
+    right: 0;
+    display: block;
+}
+
+.repeat-password input{
+    width: 90%;
+}
+
+.show{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.hidepassword{
+    display: none;
+}
+
+.show::before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: #cdcdcd;
+    left: -10px;
+    top: 10px;
+    transform: translateY(-50%);
+}
+
+
+.btn-login{
+    display: flex;
+    flex: 1 1;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.forget-password{
+    text-align: center;
+}
+
+.forget-password a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+
+.forget-password a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    padding: 15px 100px; 
+    outline: none;
+    border: none;
+    background-color: rgb(28, 169, 122);
+    color: white;
+    font-size: 17px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(9, 120, 83);
+}
+
+
+.login-fb{
+    display: flex;
+    flex: 40% 60%;
+    height: 70px;
+}
+
+.logo-fb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #2c3e68;
+}
+
+.login-fb i{
+    color: white;
+    font-size: 22px;
+}
+
+.login-fbb{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #405a98;
+}
+
+
+.login-gg{
+    display: flex;
+    flex: 40% 60%;
+    height: 70px;
+}
+
+.logo-gg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #ac2d19;
+}
+
+.login-gg i{
+    color: white;
+    font-size: 22px;
+}
+
+.login-ggg{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #d34935;
+}
+
+.login-fb:hover, .login-gg:hover{
+    cursor: pointer;
+}
+
+
+
